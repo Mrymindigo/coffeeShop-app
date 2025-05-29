@@ -1,9 +1,11 @@
 
+import Header from './Header/Header'
 
 function App() {
   return (
     
     <>
+    <Header />
     <h1>hello</h1>
     </>
   );
