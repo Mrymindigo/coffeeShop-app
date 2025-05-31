@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.headerContainerBack {
+    display: flex;
+    z-index: 9;
+    width: 100%;
+    background-color: antiquewhite;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-transform: uppercase;
+}
+
+.headerContainer {
+    display: flex;
+    width: 100%;
+    gap: 2.8rem;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.logoContainer{
+    margin-right: auto;
+}
+
+
+.navbarContainer {
+    display: flex;
+    gap: 1rem;
+}
+.navbar{
+    display: flex;
+    gap: 1rem;
+}
+
+.loginBtn{
+    display: flex;
+    color: rgb(217, 132, 115);
+    padding: .6rem 1.5rem;
+    font-size: 16px;
+    font-weight: 400;
+    font-family:sans-serif;
+    text-transform: uppercase;
+    align-items: center;
+    border: none;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
