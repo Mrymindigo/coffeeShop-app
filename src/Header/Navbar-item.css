@@ -1,6 +1,7 @@
 .navbar-item{
     color: rgb(169, 168, 168);
     transition: .3s;
+    cursor: pointer;
 }
 .navbar-item:hover{
     color:  rgb(102, 102, 102);

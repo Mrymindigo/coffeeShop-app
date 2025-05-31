@@ -6,9 +6,8 @@
 
 .headerContainerBack {
     display: flex;
-    z-index: 9;
     width: 100%;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     position: fixed;
     left: 0;
     right: 0;
@@ -40,7 +39,7 @@
 .loginBtn{
     display: flex;
     color: rgb(217, 132, 115);
-    padding: .6rem 1.5rem;
+    padding: .6rem 2rem;
     font-size: 16px;
     font-weight: 400;
     font-family:sans-serif;
@@ -50,4 +49,9 @@
     background-color: white;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
     border-radius: 10px;
+    transition: .3s;
+}
+.loginBtn:hover{
+    background-color: rgb(227, 135, 115);
+    color: white;
 }
