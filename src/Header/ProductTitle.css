@@ -1,6 +1,24 @@
-
-.productTitle{
+.productTitle {
     display: flex;
     justify-content: center;
-    padding: 4rem 0 1rem 0;
+    align-items: center;
+    padding: 6rem 0 1rem 0;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    flex-direction: column;
+}
+
+.dotIcon{
+    display: flex;
+    gap: 5px;
+    padding: 1rem 0 2rem 0;
+}
+.dotIcon span {
+    display: flex;
+    padding: 5px;
+    background-color: rgb(227, 135, 115);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
 }
