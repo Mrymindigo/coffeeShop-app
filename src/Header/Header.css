@@ -8,9 +8,7 @@
     display: flex;
     width: 100%;
     /* background-color: antiquewhite; */
-    position: fixed;
-    left: 0;
-    right: 0;
+    position: absolute;
     text-transform: uppercase;
 }
 
