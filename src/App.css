@@ -7,3 +7,10 @@ a{
 button{
     cursor: pointer;
 }
+.productBoxContainer{
+    display: flex;
+    width: 100%;
+    gap: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}

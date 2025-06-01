@@ -1,19 +1,14 @@
 
-import './Product.css'
 import React from 'react'
+import './Product.css'
 
 export default function Product(props) {
-  return (
-    <div className='productContainer'>
-        
+    return (
         <div className="productBox">
-            <img src={props.image} alt="poduct img" />
+                <img className='productImg' src={props.image} alt="poduct img" />
             <h2>{props.title}</h2>
             <p>{props.description}</p>
-            <button>read more</button>
+            <button className='productBtn'>read more</button>
         </div>
-
-      
-    </div>
-  )
+    )
 }
