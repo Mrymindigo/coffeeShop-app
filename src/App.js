@@ -3,11 +3,11 @@ import Header from './Header/Header'
 import HeadSwiper from './Head-swiper/Head-swiper'
 import Product from './Product/Product'
 import SectionTitle from './Sections-title/SectionTitle'
+import AboutSection from './aboutUs/AboutSection'
 
 
 function App() {
   return (
-
     <>
       <Header />
       <HeadSwiper />
@@ -21,6 +21,7 @@ function App() {
         </div>
       </div>
       <SectionTitle value="About Our shop" />
+      <AboutSection />
     </>
   );
 }

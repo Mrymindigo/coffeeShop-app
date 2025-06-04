@@ -1,0 +1,13 @@
+.productBtn{
+    background-color: white;
+    border: 1px solid #d78373;
+    color: cadetblue;
+    width: 60%;
+    padding: .8rem 0;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    text-transform: uppercase;
+    transition: .3s;
+    margin-bottom: 1.5rem;
+}
