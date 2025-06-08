@@ -17,7 +17,7 @@ export default function AboutSection() {
                     Many desktop publishing packages and web page editor</p>
                 <ReadMoreBtn />
             </div>
-            <div className="aboutUSImgContainer">
+            <div className="aboutUsImgContainer">
                 <img className='aboutUsUImg' src="about-img.png" alt="about us image" />
             </div>
             

@@ -1,5 +1,5 @@
 
-import './ProductTitle.css'
+import './SectionTitle.css'
 import React from 'react'
 
 export default function ProductTitle(props) {

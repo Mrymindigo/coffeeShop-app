@@ -14,3 +14,19 @@ button{
     padding-left: 3rem;
     padding-right: 3rem;
 }
+
+.customersSection{
+    background-image: url('../public/client-bg.png');
+    width: 100%;
+    height: auto;
+    background-size: 100% 100%;
+}
+.customerBoxContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 80%;
+    padding-bottom: 3rem;
+}
